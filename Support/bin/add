@@ -2,8 +2,6 @@
 
 require 'uri'
 
-File.open('/Users/max/rubytest', 'w') { |file| file.write("your text") }
-
 subject = ENV['MM_SUBJECT']
 message = "<message:<" + ENV['MM_MESSAGE_ID'] + ">>"
 
