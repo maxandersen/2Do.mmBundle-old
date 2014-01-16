@@ -1,0 +1,15 @@
+# 2Do.mmBundle
+
+Basic bundle for MailMate that supports 2Do.app.
+
+Installation:
+
+Stop MailMate
+
+  $ cd /Applications/MailMate.app/Contents/SharedSupport/Bundles/
+  $ git clone https://github.com/maxandersen/2Do.mmBundle
+  
+Run MailMate
+
+Now you should have a 2Do submenu under `Command`.
+
