@@ -1,12 +1,13 @@
 = 2Do.mmBundle
 
-Basic bundle for http://mailmate-app.com[MailMate.app] that adds support for adding tasks to http://2doapp.com/[2Do.app] with a back link to the email message.
+Basic bundle for http://mailmate-app.com[MailMate] that adds support for adding tasks to http://2doapp.com/[2Do.app] with a back link to the email message.
 
 Installation:
 
 Stop MailMate
 
-  $ cd "~/Library/Application Support/MailMate.app/Bundles/"
+  $ mkdir ~/Library/Application Support/MailMate/Bundles/
+  $ cd "~/Library/Application Support/MailMate/Bundles/"
   $ git clone https://github.com/maxandersen/2Do.mmBundle
   
 Run MailMate
